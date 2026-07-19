@@ -2,10 +2,10 @@
 // Database connection config.
 // Update these values with your own database credentials.
 
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'tutorfinder');
-define('DB_USER', 'YOUR_DB_USER');
-define('DB_PASS', 'YOUR_DB_PASSWORD');
+define('DB_HOST', 'sql301.infinityfree.com');
+define('DB_NAME', 'if0_42447065_tutorfinder');
+define('DB_USER', 'if0_42447065');
+define('DB_PASS', '5WEM9ONEjFvI');
 define('DB_CHARSET', 'utf8mb4');
 
 function get_db_connection(): PDO
